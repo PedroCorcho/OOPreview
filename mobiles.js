@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var mobileClass_1 = require("./mobileClass");
+var Nokia3210 = new mobileClass_1.Mobile("Nokia", "3210", "Nokia", 3210, "Grey", false, 1, 200);
+var iphone3G = new mobileClass_1.Mobile("Iphone", "3G", "Iphone", 3, "Grey", false, 1, 500);
+var samsungGalaxy = new mobileClass_1.Mobile("Samsung", "Galaxy 10", "Samsung", 10, "white", true, 2, 450);
+// console.table(Nokia3210);
+// console.log(iphone3G);
+// console.log(samsungGalaxy);
+Nokia3210.is5g = true;
+Nokia3210.cameraNumber = 4;
+var allMobiles = [Nokia3210, iphone3G, samsungGalaxy];
+console.log(allMobiles);
