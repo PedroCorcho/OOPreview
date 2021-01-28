@@ -5,13 +5,33 @@ const iphone3G:Mobile = new Mobile("Iphone", "3G", "Iphone", 3, "Grey", false, 1
 const samsungGalaxy:Mobile = new Mobile("Samsung", "Galaxy 10", "Samsung", 10, "white", true, 2, 450);
 
 
+
+
+
+Nokia3210.setIs5g(true);
+Nokia3210.setCameraNumber(4);
+
+
+let mobileTest: Mobile[] = [Nokia3210,iphone3G,samsungGalaxy] 
+
+for (let i = 0; i < mobileTest.length; i++) {
+    mobileTest[i].caracteristicasMobiles()
+}
+
+
+
+
+
+
+
+
+
 // console.table(Nokia3210);
 // console.log(iphone3G);
 // console.log(samsungGalaxy);
 
-Nokia3210.is5g = true;
-Nokia3210.cameraNumber = 4;
 
-let allMobiles = [Nokia3210,iphone3G,samsungGalaxy];
 
-console.log(allMobiles);
+
+
+
