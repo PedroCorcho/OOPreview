@@ -32,6 +32,3 @@ for (let i = 0; i < mobileTest.length; i++) {
 
 
 
-
-
-

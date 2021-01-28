@@ -86,9 +86,9 @@ export class Mobile {
 // -------------Methods-------------------------
 
         caracteristicasMobiles() {
-                console.log("\u004B" + "The characteristics of the mobile " + this.name + " are:" + "\n" + "\t" + "\u004B" + "Name: " + this.name + "\n" + "\t" + "\u004B" + "Model: " + this.model
-            + "\n" + "\t" + "\u004B" + "Trademark: " + this.trademark + "\n" + "\t" + "\u004B" + "SD Size(GB): " + this.sdSize + "\n" + "\t" + "\u004B" + "Color: " + this.color
-            + "\n" + "\t" + "\u004B" + "Is 5g?: " + this.is5g + "\n" + "\t" + "\u004B" + "Number of cameras: " + this.cameraNumber);
+                console.log("\u00A4" + "The characteristics of the mobile " + this.name + " are:" + "\n" + "\t" + "\u00A4" + "Name: " + this.name + "\n" + "\t" + "\u00A4" + "Model: " + this.model
+            + "\n" + "\t" + "\u00A4" + "Trademark: " + this.trademark + "\n" + "\t" + "\u00A4" + "SD Size(GB): " + this.sdSize + "\n" + "\t" + "\u00A4" + "Color: " + this.color
+            + "\n" + "\t" + "\u00A4" + "Is 5g?: " + this.is5g + "\n" + "\t" + "\u00A4" + "Number of cameras: " + this.cameraNumber);
     };
 
         }
