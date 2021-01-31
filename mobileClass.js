@@ -64,9 +64,9 @@ var Mobile = /** @class */ (function () {
     };
     // -------------Methods-------------------------
     Mobile.prototype.caracteristicasMobiles = function () {
-        console.log("\u00A4" + "The characteristics of the mobile " + this.name + " are:" + "\n" + "\t" + "\u00A4" + "Name: " + this.name + "\n" + "\t" + "\u00A4" + "Model: " + this.model
-            + "\n" + "\t" + "\u00A4" + "Trademark: " + this.trademark + "\n" + "\t" + "\u00A4" + "SD Size(GB): " + this.sdSize + "\n" + "\t" + "\u00A4" + "Color: " + this.color
-            + "\n" + "\t" + "\u00A4" + "Is 5g?: " + this.is5g + "\n" + "\t" + "\u00A4" + "Number of cameras: " + this.cameraNumber);
+        console.log("\u2023" + "The characteristics of the mobile " + this.name + " are:" + "\n" + "\t" + "\u2023" + "Name: " + this.name + "\n" + "\t" + "\u2023" + "Model: " + this.model
+            + "\n" + "\t" + "\u2023" + "Trademark: " + this.trademark + "\n" + "\t" + "\u2023" + "SD Size(GB): " + this.sdSize + "\n" + "\t" + "\u2023" + "Color: " + this.color
+            + "\n" + "\t" + "\u2023" + "Is 5g?: " + this.is5g + "\n" + "\t" + "\u2023" + "Number of cameras: " + this.cameraNumber);
     };
     ;
     return Mobile;
